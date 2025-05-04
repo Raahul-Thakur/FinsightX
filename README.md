@@ -1,3 +1,15 @@
+---
+title: FinSightX - Financial Agent Suite
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: 1.29.0
+app_file: ui/streamlit_app.py
+pinned: false
+license: apache-2.0
+short_description: Multi-agent AI assistant for finance, news, and analysis.
+---
+
 # 📊 FinSightX – AI-Powered Financial Analyst Suite
 
 **FinSightX** is an intelligent, agent-powered financial assistant built using Groq's ultra-fast LLaMA 3.1 models, AutoRAG, and open-source tools. It allows users to query equities, summarize news, run macroeconomic forecasts, test quant strategies, track regulatory changes, and receive client-style advisory responses — all in one lightweight app.
