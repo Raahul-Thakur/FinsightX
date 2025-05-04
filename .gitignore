@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+
+
+# Virtual environment
+venv/
+.env
+
+
+# VSCode
+.vscode/
+
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model files
+*.pth
+*.pt
+*.bin
+*.gguf
+*.ckpt
+*.safetensors
+
+# Hugging Face transformers
+tokenizer_config.json
+config.json
+special_tokens_map.json
+pytorch_model.bin
+sentence_bert_config.json
+model.safetensors
+
+# ChromaDB local data
+chroma/
+chroma.db/
+chroma_data/
+*.sqlite
+
+# Streamlit cache
+.streamlit/
+.cache/
+__pycache__/
+
+# Misc
+*.csv
+*.parquet
+*.zip
+*.tar
+*.h5
+*.pdf
+
+# Ignore test or temp files
+*.bak
+*.tmp

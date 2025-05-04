@@ -1,0 +1,9 @@
+sdk: streamlit
+app_file: ui/streamlit_app.py
+python_version: 3.10
+pinned: false
+license: apache-2.0
+title: FinSightX - Financial Agent Suite
+emoji: 📊
+colorFrom: blue
+colorTo: green

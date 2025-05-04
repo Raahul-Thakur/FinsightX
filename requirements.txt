@@ -1,0 +1,10 @@
+streamlit
+pandas
+neuralprophet
+sentence-transformers
+chromadb
+httpx
+python-dotenv
+transformers
+torch
+llama-cpp-python
