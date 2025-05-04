@@ -17,8 +17,7 @@ transformers==4.51.3
 tokenizers==0.21.1
 
 # Torch (CPU only, avoids massive CUDA)
-torch==2.1.2+cpu
-# If you need GPU and have custom needs: torch==2.7.0, but be ready for 6GB+ image size
+torch==2.1.2
 
 # Vector DB
 chromadb==1.0.7
