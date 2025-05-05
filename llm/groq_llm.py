@@ -13,4 +13,4 @@ def call_groq_mistral(prompt: str) -> str:
         response.raise_for_status()
         return response.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        return f"❌ Error calling Groq: {str(e)}"
+        return f"Error calling Groq: {str(e)}"

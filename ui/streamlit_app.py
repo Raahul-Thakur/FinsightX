@@ -12,16 +12,14 @@ from agents.quant_backtester import run_simple_backtest
 from agents.regu_radar import monitor_regulatory_changes
 from agents.client_advisor import advise_client
 
-# --- UI Setup ---
 st.set_page_config(page_title="FinSightX", layout="wide")
 
-st.title("📊 FinSightX: AI-Powered Financial Agent Suite")
+st.title("FinSightX: AI-Powered Financial Agent Suite")
 
-# Sidebar
 agent = st.sidebar.selectbox(
     "Choose Agent",
     [
-        "🏠 Home",
+        "Home",
         "Equity Analyst",
         "News Summarizer",
         "Macro Strategist",
@@ -31,9 +29,8 @@ agent = st.sidebar.selectbox(
     ]
 )
 
-# --- Agent Routing ---
 
-if agent == "🏠 Home":
+if agent == "Home":
     st.header("A Multi-Agent Financial Intelligence Assistant")
     st.markdown("""
     A **modular industry-grade application** where agents collaborate to handle:
@@ -47,7 +44,7 @@ if agent == "🏠 Home":
     """)
 
 elif agent == "Equity Analyst":
-    st.subheader("🔍 Equity Analyst")
+    st.subheader("Equity Analyst")
     st.markdown("""
     ### Role:
     Analyzes individual stocks or companies using:
@@ -72,7 +69,7 @@ elif agent == "Equity Analyst":
         st.markdown(response)
 
 elif agent == "News Summarizer":
-    st.subheader("📰 News Summarizer")
+    st.subheader("News Summarizer")
     st.markdown("""
     ### Role:
     Digest and summarize **real-time or bulk market news** to extract insights and relevance.
@@ -93,7 +90,7 @@ elif agent == "News Summarizer":
         st.markdown(summary)
 
 elif agent == "Macro Strategist":
-    st.subheader("📉 Macro Trend Forecaster")
+    st.subheader("Macro Trend Forecaster")
     st.markdown("""
     ### Role:
     Analyzes **macroeconomic indicators** and helps in trend forecasting.
@@ -114,11 +111,11 @@ elif agent == "Macro Strategist":
         if st.button("Forecast"):
             with st.spinner("Forecasting..."):
                 forecast_result = analyze_macro_trends(df)
-            st.write("📈 Forecasted Value:")
+            st.write("Forecasted Value:")
             st.json(forecast_result)
 
 elif agent == "Quant Backtester":
-    st.subheader("💹 Quant Strategy Backtester")
+    st.subheader("Quant Strategy Backtester")
     st.markdown("""
     ### Role:
     Tests trading strategies on historical price data.
@@ -144,11 +141,11 @@ elif agent == "Quant Backtester":
                 sma_short=sma_short,
                 sma_long=sma_long
             )
-        st.write("✅ Backtest completed. Check your terminal/logs for output.")
+        st.write("Backtest completed. Check your terminal/logs for output.")
         st.markdown("Note: Visual performance plots not yet integrated in Streamlit.")
 
 elif agent == "ReguRadar":
-    st.subheader("📜 ReguRadar – Regulatory Monitor")
+    st.subheader("ReguRadar – Regulatory Monitor")
     st.markdown("""
     ### Role:
     Monitors and interprets **regulatory updates** that may affect sectors, firms, or compliance requirements.
@@ -169,7 +166,7 @@ elif agent == "ReguRadar":
         st.markdown(reg_response)
 
 elif agent == "Client Advisor":
-    st.subheader("🧑‍💼 Client Advisor")
+    st.subheader("Client Advisor")
     st.markdown("""
     ### Role:
     Acts as a **virtual financial advisor**, helping individual users based on their queries and emotional tone.

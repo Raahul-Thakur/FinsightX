@@ -10,15 +10,15 @@ license: apache-2.0
 short_description: Multi-agent AI assistant for finance, news, and analysis.
 ---
 
-# 📊 FinSightX – AI-Powered Financial Analyst Suite
+# FinSightX – AI-Powered Financial Analyst Suite
 
 **FinSightX** is an intelligent, agent-powered financial assistant built using Groq's ultra-fast LLaMA 3.1 models, AutoRAG, and open-source tools. It allows users to query equities, summarize news, run macroeconomic forecasts, test quant strategies, track regulatory changes, and receive client-style advisory responses — all in one lightweight app.
 
-> 💡 Built with Groq API, Hugging Face Transformers, ChromaDB, and Streamlit.
+> Built with Groq API, Hugging Face Transformers, ChromaDB, and Streamlit.
 
 ---
 
-## 🚀 Features
+## Features
 
 | Agent | Role |
 |-------|------|
@@ -31,7 +31,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **LLM**: `llama-3.1-8b-instant` via Groq API (OpenAI-compatible)
 - **Embedding**: `all-MiniLM-L6-v2` (SentenceTransformers)
@@ -43,7 +43,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. Clone the repo  
 2. Install dependencies:
@@ -60,7 +60,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
     streamlit run ui/streamlit_app.py
     ```
 
-## 📉 Current Limitations
+## Current Limitations
 
 - ChromaDB does not yet include 10-K/10-Q or earnings data
 - Macro indicators (CPI, interest rates) not integrated
@@ -70,9 +70,9 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 
 ---
 
-## 📂 Future Improvements
+## Future Improvements
 
-### 📄 Financial Documents to Integrate
+### Financial Documents to Integrate
 
 | Document                     | Use                                          |
 |------------------------------|-----------------------------------------------|
@@ -82,7 +82,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 | Investor Presentations       | Visual and forward-looking insights           |
 | Proxy Statements (DEF 14A)   | Governance and voting info                    |
 
-### 📊 Financial Metrics to Add
+### Financial Metrics to Add
 
 - Free cash flow  
 - ROE / ROIC  
@@ -90,7 +90,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 - Piotroski F-Score  
 - Debt/equity & profitability ratios  
 
-### 🌐 Macroeconomic Indicators
+### Macroeconomic Indicators
 
 | Indicator                | Source                            |
 |--------------------------|------------------------------------|
@@ -98,7 +98,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 | Fed rates, Inflation     | TradingEconomics / OpenBB          |
 | Currency / Commodities   | Yahoo Finance / forex-python       |
 
-### 🔌 Tools & Libraries to Integrate
+### Tools & Libraries to Integrate
 
 - `sec-api.io` or `sec-edgar-downloader` (for 10-Ks)  
 - `openbb` (for macro + financial aggregation)  
@@ -107,7 +107,7 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 
 ---
 
-## 🔮 Future Agent Extensions
+## Future Agent Extensions
 
 | Agent Name             | Description                                                            |
 |------------------------|------------------------------------------------------------------------|
@@ -117,14 +117,14 @@ short_description: Multi-agent AI assistant for finance, news, and analysis.
 
 ---
 
-## 📘 License
+## License
 
 Currently for **research and educational purposes only**.  
 If using Groq-hosted LLaMA 3.1, ensure compliance with Meta’s licensing.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by **Rahul Thakur**  
 Want to collaborate or contribute? Fork, star, and connect!

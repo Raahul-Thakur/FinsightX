@@ -7,7 +7,6 @@ def run_simple_backtest(
         prices = bt.get(tickers, start="2020-01-01")
         sma_s = prices.rolling(sma_short).mean()
         sma_l = prices.rolling(sma_long).mean()
-        # Note: Signal is not used in bt directly
         return bt.Strategy(
             strategy_name,
             [
