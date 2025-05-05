@@ -124,6 +124,11 @@ If using Groq-hosted LLaMA 3.1, ensure compliance with Meta’s licensing.
 
 ---
 
+## Check the project live on
+Huggingface Spaces: https://huggingface.co/spaces/Raahulthakur/FinsightX
+
+---
+
 ## Author
 
 Developed by **Rahul Thakur**  
