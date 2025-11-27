@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Databricks",
+    "sector": "AI/Data",
+    "stage": "Series I",
+    "arr": "$1.6B",
+    "growth": 50,
+    "notes": "Lakehouse platform with strong enterprise renewals; competitive with Snowflake. Key risks: cloud cost sensitivity, platform migration friction."
+  },
+  {
+    "name": "Stripe",
+    "sector": "Fintech",
+    "stage": "Late Stage",
+    "arr": "$3.5B",
+    "growth": 35,
+    "notes": "Global payments and issuing stack; expanding into treasury and lending. Risks: margin pressure from competition and regulatory shifts."
+  },
+  {
+    "name": "Anthropic",
+    "sector": "AI Foundation Models",
+    "stage": "Series F",
+    "arr": "$850M",
+    "growth": 120,
+    "notes": "Claude model adoption growing in enterprise; unit costs tied to frontier model training and inference. Needs capitalization discipline."
+  }
+]
