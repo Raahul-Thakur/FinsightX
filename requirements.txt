@@ -26,6 +26,7 @@ chromadb==1.0.7
 httpx==0.28.1
 fastapi==0.115.9
 uvicorn==0.34.2
+yfinance==0.2.54
 
 # Optional / Native-heavy packages (comment out if not needed)
 # llama-cpp-python==0.3.8
